@@ -1,0 +1,32 @@
+.scs-tooltip {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid black;
+    background: #666;
+    color: #ccc;
+    text-align: center;
+    line-height: 50px;
+    margin-left: -75px;
+    margin-top: -50px;
+}
+
+.scs-tooltip button {
+    border: none;
+    background: none;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    color: #ccc;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+.scs-tooltip button:hover {
+    background: #777;
+    color: white;
+}
