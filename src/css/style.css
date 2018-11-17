@@ -10,6 +10,7 @@
     line-height: 50px;
     margin-left: -75px;
     margin-top: -50px;
+    z-index: 999999999999999999;
 }
 
 .scs-tooltip button {
